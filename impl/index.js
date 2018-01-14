@@ -1,0 +1,1 @@
+export { insertion_sort } from './sort/insertion_sort';

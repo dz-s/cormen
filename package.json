@@ -1,0 +1,32 @@
+{
+  "name": "cormen_algos",
+  "version": "1.0.0",
+  "description": "Implementation of core algos from Cormen's book",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --require babel-register",
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teriyakigod2/cormen.git"
+  },
+  "author": "shulhin_dv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teriyakigod2/cormen/issues"
+  },
+  "homepage": "https://github.com/teriyakigod2/cormen#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.15.0",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "flow-bin": "^0.63.1",
+    "mocha": "^4.1.0"
+  }
+}
