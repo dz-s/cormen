@@ -2,7 +2,7 @@
 //@flow
 /**
  * 
- * @param {*Number Array} array 
+ * @param {*Number Array} arr 
  */
 const insertion_sort = (arr: number[]) => {
     let key: number = 0; 
@@ -19,5 +19,3 @@ const insertion_sort = (arr: number[]) => {
 };
 
 export { insertion_sort }
-
-
